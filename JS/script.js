@@ -1,5 +1,5 @@
 // Your existing JavaScript
-alert("Dedicated to Zam")
+alert("Dedicated to My Deskie")
 // New JavaScript for animations
 window.onload = () => {
 const phoneText = "+256 753 505769";

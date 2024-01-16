@@ -1,0 +1,93 @@
+/* Your existing CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}*/
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}*/
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}*/
+
+/* Animation Styles */
+#phone {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    animation: typing 2s steps(15, end), blink-caret 0.75
+}
+/* New styles for animation */
+#phone {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+}
+
+/* Animation Styles */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}
+
+/* Updated styles for profile picture */
+.profile-pic-container {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Adjust the size as needed */
+    overflow: hidden;
+    border-radius: 50%; /* Makes it circular */
+    margin: 0 auto;
+}
+
+.profile-pic {
+    width: 100%; /* Ensures the image fits within the container */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 50%; /* Keeps it circular */
+    transition: transform 0.5s ease-in-out; /* Add a simple animation */
+}
+
+.profile-pic:hover {
+    transform: scale(1.1); /* Enlarges the image on hover */
+}

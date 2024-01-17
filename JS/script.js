@@ -1,4 +1,3 @@
-//alert("Dedicated to My Deskie A")
 // New JavaScript for animations
 window.onload = () => {
 const phoneText = "+256 753 505769";

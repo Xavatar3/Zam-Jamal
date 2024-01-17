@@ -1,7 +1,7 @@
 // Your existing JavaScript
 alert("Dedicated to My Deskie A")
 // New JavaScript for animations
-window.onload = () => {
+/*window.onload = () => {
 const phoneText = "+256 753 505769";
 document.getElementById("phone").textContent = phoneText;
 
@@ -23,4 +23,4 @@ anime({
     delay: anime.stagger(100, { start: 500 }),
 });
 
-}
+}*/
